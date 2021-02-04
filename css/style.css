@@ -6,9 +6,9 @@ h1 {
     font-size: 30px;
     font-style: normal;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
-    color: whitesmoke;
+    color: whitesmoke
 }
 h2 {
     font-family: sans-serif;
@@ -83,4 +83,33 @@ background-color: yellow; }
       background-color: whitesmoke;
       color:#182540;
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 0px 800px;
+    grid-gap: 50px;
+    background-color: whitesmoke
+    padding: 70px;
+  }
+
+  p {
+    margin-bottom: 90px;
+    margin-right: 40px;
+  }
   
+  .grid-container > div {
+    background-color: #9FB0BF;
+    text-align: left;
+    padding: 5px 80px;
+    font-size: 15px;
+    line-height: 30px;
+    color: whitesmoke;
+    background-size: cover;
+    background background-attachment: fixed;
+}
+  .bg1{
+    background: url(images/80opacity.png)
+    }
+
+
+    
